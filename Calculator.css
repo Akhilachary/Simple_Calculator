@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-weight: 500;
+    font-size: 30px;
+}
+#container{
+    background-color: aliceblue;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#calci{
+    display: flex;
+    flex-direction: column;
+    /* width: 20vw; */
+    background-color: rgba(87, 96, 96, 0.933);
+    border-radius: 12px;
+}
+#result{
+    padding: 10px 10px 5px;
+    width: 100%;
+}
+#keypad{
+    width: 100%;
+    display: flex;
+    padding: 10px 5px 15px;
+    flex-direction: column;
+}
+#keypad1{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#keypad2{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#keypad3{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#keypad4{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#keypad5{
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 2px;
+    
+}
+p{
+    padding: 10px;
+    width: 70px;
+    height: 65px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(43, 39, 39);
+    /* border: 3px solid white; */
+}
+#equalto{
+    /* margin: 20px; */
+    padding: 13px 50px;
+    font-size: 30px;
+    width: 140px;
+    /* font-weight: 6; */
+    /* margin-left: 60px; */
+    text-align: center;
+    
+}
+h4{
+    text-align: right;
+    margin: 20px;
+    padding: 6px;
+
+}
+.special{
+   color: rgb(74, 155, 150);
+   font-weight: 700;
+}
